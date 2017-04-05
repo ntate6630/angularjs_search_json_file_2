@@ -1,0 +1,19 @@
+{
+  "name": "angularjs_search_json_file_2",
+  "version": "1.0.0",
+  "description": "- This app has been extended from the previous version of the project. As well as reading from a JSON file the recipe name, ingredients and cooking instructions into a table it features an extended search with the recipe names searchable in another table in a separate partial html page.\r - When a search is performed on a recipe a link will direct the use to the ingradients and cooking instructions page where it will be displayed in the view.\r - The ingrediants and instructions table are now placed in a separate html page. The table is sorted alphabetically and can be searched by recipe name.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntate6630/angularjs_search_json_file_2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ntate6630/angularjs_search_json_file_2/issues"
+  },
+  "homepage": "https://github.com/ntate6630/angularjs_search_json_file_2#readme"
+}
