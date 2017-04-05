@@ -4,8 +4,9 @@
 
 ### What is this app for?
 
-- This app will read from a JSON file the recipe name, ingredients and cooking instructions into a table. 
-- The table is sorted alphabetically and can be searched by recipe name.
+- This app has been extended from the previous version of the project. As well as reading from a JSON file the recipe name, ingredients and cooking instructions into a table it features an extended search with the recipe names searchable in another table in a separate partial html page.
+- When a search is performed on a recipe a link will direct the use to the ingradients and cooking instructions page where it will be displayed in the view.
+- The ingrediants and instructions table are now placed in a separate html page. The table is sorted alphabetically and can be searched by recipe name.
 
 ## Features
 

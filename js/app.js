@@ -8,5 +8,10 @@ angular.module('SearchApp').config(function($locationProvider, $routeProvider) {
         templateUrl: 'templates/home.html',
         controller: 'HomeController'
     })
+    .when('/recipes', {
+        templateUrl: 'templates/recipes.html',
+        controller: 'SearchController'
+    });
+
 });
 
