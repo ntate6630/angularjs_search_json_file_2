@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html ng-app='SearchApp'>
+<head>
+    <title>Angular Todo</title>
+    <base href="/"> <!-- needed for Angular HTML5 mode -->
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+    <script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>AngularJS read JSON file and search - Cooking Recipes</h1>
+
+    <input type="text" data-ng-model="search.dish">
+
+    <div data-ng-controller="SearchController">
+        <table class="table table-striped">
+            <tbody data-ng-repeat="recipe in cooking_instructions | filter:search | orderBy:'dish'">
+                <tr>
+                    <td><h2>{{recipe.dish}}</h2></td>
+                </tr>
+                <tr>
+                    <td><h4>Ingredients</h4></td>
+                </tr>
+                <tr>
+                    <td>{{recipe.ingredients.i1}}</td>
+                </tr>
+                <tr>
+                    <td>{{recipe.ingredients.i2}}</td>
+                </tr>
+                <tr>
+                    <td>{{recipe.ingredients.i3}}</td>
+                </tr>
+                <tr>
+                    <td>{{recipe.ingredients.i4}}</td>
+                </tr>
+                <tr>
+                    <td>{{recipe.ingredients.i5}}</td>
+                </tr>
+                <tr>
+                    <td>{{recipe.ingredients.i6}}</td>
+                </tr>
+                <tr>
+                    <td>{{recipe.ingredients.i7}}</td>
+                </tr>
+                <tr>
+                    <td>{{recipe.ingredients.i8}}</td>
+                </tr>
+                <tr>
+                    <td>{{recipe.ingredients.i9}}</td>
+                </tr>
+                <tr>
+                    <td>{{recipe.ingredients.i10}}</td>
+                </tr>
+                <tr>
+                    <td>{{recipe.ingredients.i11}}</td>
+                </tr>
+                <tr>
+                    <td>{{recipe.ingredients.i12}}</td>
+                </tr>
+                <tr>
+                    <td><h4>Method</h4></td>
+                </tr>
+                <tr>
+                    <td>{{recipe.cooking_method.s1}}</td>
+                </tr>
+                <tr>
+                    <td>{{recipe.cooking_method.s2}}</td>
+                </tr>
+                <tr>
+                    <td>{{recipe.cooking_method.s3}}</td>
+                </tr>
+                <tr>
+                    <td>{{recipe.cooking_method.s4}}</td>
+                </tr>
+                <tr>
+                    <td>{{recipe.cooking_method.s5}}</td>
+                </tr>
+                <tr>
+                    <td>{{recipe.cooking_method.s6}}</td>
+                </tr>
+                <tr>
+                    <td>{{recipe.cooking_method.s7}}</td>
+                </tr>
+                <tr>
+                    <td>{{recipe.cooking_method.s8}}</td>
+                </tr>
+                <tr>
+                    <td>{{recipe.cooking_method.s9}}</td>
+                </tr>
+                <tr>
+                    <td>{{recipe.cooking_method.s10}}</td>
+                </tr>
+                <tr>
+                    <td>{{recipe.cooking_method.s11}}</td>
+                </tr>
+                <tr>
+                    <td>{{recipe.cooking_method.s12}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+
+    <div ng-view>
+
+    </div>
+
+    <script src='js/app.js'></script>
+    <script src='js/controller.js'></script>
+    <script src='js/service.js'></script>
+    <script src='js/directive.js'></script>
+
+</body>
+</html>
