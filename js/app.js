@@ -8,10 +8,12 @@ angular.module('SearchApp').config(function($locationProvider, $routeProvider) {
         templateUrl: 'templates/home.html',
         controller: 'HomeController'
     })
-    .when('/recipes', {
+  /*  .when('/recipes', {
         templateUrl: 'templates/recipes.html',
-        controller: 'SearchController'
+        controller: 'RecipeController'
+    })*/
+    .when('/howTo', {
+        templateUrl: 'templates/howto.html',
+        controller: 'HowToController'
     });
-
 });
-

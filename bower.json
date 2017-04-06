@@ -1,0 +1,22 @@
+{
+  "name": "angular_search_json_file_2",
+  "homepage": "https://github.com/ntate6630/angularjs_search_json_file_2",
+  "authors": [
+    "Nick Tate <ntate6630@yahoo.co.uk>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "^1.6.4",
+    "angular": "^1.6.4",
+    "bootstrap": "^3.3.7"
+  }
+}
