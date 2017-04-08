@@ -11,15 +11,14 @@
 ## Features
 
 ### Existing Features
-- Created a JSON file with "dish", "ingredients" and "method" entries
+- Created a JSON file with "dish", "type", "ingredients" and "method" entries
 - Added a service to read the JSON file.
 - View data objects in the console for testing
 - Create a web page that displays a table
-- Added a search box
+- Added a search box that searches only by name and type of recipe.
 - Added Angular "Search, filter, and byOrder - alphabetical sorting of recipes" 
 
 ### Features Left to Implement
-- Display data in ng-view
 - Style with CSS
 - Use this projects code in the Stream 1 project
 

@@ -1,0 +1,19 @@
+<div ng-controller="HowToController" class="container instructions">
+    <div class="header">
+		<h1>Recipes</h1>
+	</div>
+    <div>
+        <table class="table">
+            <tbody data-ng-repeat="recipe in cookingInstructions | filter:search | orderBy:'dish'">
+                <tr>
+                    <td><h2>{{ recipe.name.type }} </h2></td>
+                    <td><h2>{{ recipe.name.dish }} <a ng-href="/howTo"></a></h2></td>
+                    <td><img ng-src="/img/{{recipe.image}}"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+<!-- take the click to go to instructions out of the table and make it go be part of the search box magnifying glass -->

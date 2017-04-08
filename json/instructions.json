@@ -1,6 +1,9 @@
 [
    {
-      "dish": "Baked salmon with herbs",
+      "name":{"dish": "Baked salmon with herbs",
+               "type": "Fish"
+      },
+      "image": "baked_salmon_with_herbs.jpg",
       "ingredients": {
          "i1": "2 pounds salmon fillet, cut in half",
          "i2": "3 tablespoons butter",
@@ -33,7 +36,10 @@
       }
    },
    {
-      "dish": "Apple pie",
+      "name":{"dish": "Apple pie",
+               "type": "Dessert"
+      },
+      "image": "applepie.jpg",
       "ingredients": {
          "i1": "255g/9oz plain flour",
          "i2": "pinch of salt",
@@ -66,7 +72,10 @@
       }
    },
    {
-      "dish": "Minestrone soup",
+      "name":{"dish": "Minestrone soup",
+      "type": "Soup"
+      },
+      "image": "minestrone_soup.jpg",
       "ingredients": {
          "i1": "1 teaspoon of olive oil",
          "i2": "200g/7oz streaky bacon or lean back-bacon, rind removed, finely chopped",
@@ -99,7 +108,10 @@
       }
    },
    {
-      "dish": "Roast beef",
+      "name":{ "dish": "Roast beef",
+      "type": "Meat"
+      },
+      "image": "roast_beef.jpg",
       "ingredients": {
          "i1": "2.75kg/6lb 2oz whole beef sirloin, fat and sinew trimmed",
          "i2": "250g/9oz beef dripping or lard",
@@ -132,7 +144,10 @@
       }
    },
    {
-      "dish": "Custard tart",
+      "name":{"dish": "Custard tart",
+               "type": "Dessert"
+      },
+      "image": "custard_tart.jpg",
       "ingredients": {
          "i1": "22cm/9in shortcrust pastry case",
          "i2": "300ml/10 fl oz full-fat milk",

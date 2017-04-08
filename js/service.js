@@ -12,4 +12,4 @@ app.service("read_json_Service", function ($http, $q)
     {
         return deferred.promise;
     }
-})
+});
