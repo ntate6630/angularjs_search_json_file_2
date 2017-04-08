@@ -38,3 +38,16 @@
 4. After those dependencies have been installed you'll need to make sure that you have **http-server** installed. You can install this by running the following: ```npm install -g http-server # this also may require sudo on Mac/Linux```
 5. Once **http-server** is installed run ```http-server -c-1```
 6. The project will now run on [localhost](http://127.0.0.1:8080)
+
+
+
+## Credits
+
+The following sites and organizations were used in creating this project. Credits to the respective owners and thanks.
+
+The Learning People and Code Institute - https://www.codeinstitute.net/
+Jessamyn Smith - Code Institute Mentor - https://github.com/jessamynsmith
+AngularJS Documentation - https://angularjs.org/
+For installing npm and libraries - https://nodejs.org/en/
+Tutorials - http://www.webchannel24.com/acciocode/
+Tutorials - https://www.w3schools.com/
