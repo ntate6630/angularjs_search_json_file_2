@@ -1,17 +1,17 @@
 <div ng-controller="HowToController" class="container instructions">
     <div class="header">
-		<h1>How To</h1>
+		<h1>How To Cook:</h1>
 	</div>
 
     <div>
         <table class="table">
             <tbody data-ng-repeat="recipe in cookingInstructions | filter:search | orderBy:'dish'">
                 <tr>
-                    <td><h2>{{recipe.dish}}</h2></td>
+                    <td><h2>{{recipe.name.dish}}</h2></td>
                     <td><img ng-src="/img/{{recipe.image}}"></td>
                 </tr>
                 <tr>
-                    <td><h4>Ingredients</h4></td>
+                    <td><h3>Ingredients</h3></td>
                 </tr>
                 <tr>
                     <td>{{recipe.ingredients.i1}}</td>
@@ -53,7 +53,7 @@
                     <td>{{recipe.ingredients.i13}}</td>
                 </tr>
                 <tr>
-                    <td><h4>Method</h4></td>
+                    <td><h3>Method</h3></td>
                 </tr>
                 <tr>
                     <td>{{recipe.cooking_method.s1}}</td>
